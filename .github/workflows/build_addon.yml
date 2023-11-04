@@ -1,5 +1,8 @@
 name: build addon
 
+permissions:
+  content: write
+
 on:
   push:
     tags: ["*"]
